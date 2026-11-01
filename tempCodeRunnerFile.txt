@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main(){
+    deque<int> dq;
+    dq.push_back(10);
+    dq.push_back(20);
+    dq.push_back(30);
+    dq.front();
+    dq.push_front(40);
+    dq.front();
+    return 0;
+}
